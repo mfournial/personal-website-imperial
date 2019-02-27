@@ -42,8 +42,17 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    '@nuxtjs/style-resources',
   ],
-
+  bootstrapVue: {
+    bootstrapCSS: false, // or `css`
+    bootstrapVueCSS: false // or `bvCSS`
+  },
+  styleResources: {
+    sass: ["assets/boostrap/scss/bootstrap.scss"],
+    less: [],
+    stylus: []
+  },
   /*
   ** Build configuration
   */
