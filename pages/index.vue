@@ -23,7 +23,7 @@
           class="button--green"
         >Documentation</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/mfournial"
           target="_blank"
           class="button--grey"
         >GitHub</a>
@@ -47,10 +47,7 @@ export default {
                 { hid: "description", name: "description", content: this.description },
             ],
         }
-    },
-    components: {
-        Logo
-    },
+    }
 }
 </script>
 

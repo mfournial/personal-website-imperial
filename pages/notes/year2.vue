@@ -3,8 +3,8 @@
     <div>
       <b-card no-body>
         <b-tabs card>
-          <b-tab title="Maths" active>Tab Contents 1</b-tab>
-          <b-tab title="Tab 2">Tab Contents 2</b-tab>
+          <b-tab title="Mathematics" active>Maths module</b-tab>
+          <b-tab title="Computing" active>Computing module</b-tab>
         </b-tabs>
       </b-card>
     </div>
