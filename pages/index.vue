@@ -1,17 +1,21 @@
 <template>
   <section class="container">
     <div>
-    <b-alert show>Fuck</b-alert>
-    <b-button v-b-popover.hover="'I am popover content!'" title="Popover Title">Hover Me</b-button>
+      <b-button v-b-popover.hover="'popover content!'" title="Popover Title">Hover Me</b-button>
     </div>
     <div>
-      <logo />
-      <h1 class="title">
-        personal-website
-      </h1>
-      <h2 class="subtitle">
-        Personal ~mmf115 website
+      <h2>
+        Mayeul Fournial is a motivated, hardworking and reliable penultimate year student at Imperial College London on track to achieve a first class degree. He is also the academic representative of in the third year of his course Joint Maths and Computing.
       </h2>
+      
+      <div class="text-center">
+        <b-spinner label="Spinning" />
+        <b-spinner type="grow" label="Spinning" />
+        <b-spinner variant="primary" label="Spinning" />
+        <b-spinner variant="primary" type="grow" label="Spinning" />
+        <b-spinner variant="success" label="Spinning" />
+        <b-spinner variant="success" type="grow" label="Spinning" />
+      </div>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -29,12 +33,10 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
     data () {
         return {
-            description: "Personal website of Mayeul Fournial (mfournial@outlook.com)",
+            description: "Mayeul Fournial is a motivated, hardworking and reliable penultimate year student at Imperial College London on track to achieve a first class degree. He is also the academic representative of in the third year of his course Joint Maths and Computing.",
             title: "Index",
         }
     },
