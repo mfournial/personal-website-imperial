@@ -1,6 +1,5 @@
 const pkg = require('./package')
 
-
 module.exports = {
   mode: 'universal',
 
@@ -15,7 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/~mmf115/favicon.ico' }
     ]
   },
 
@@ -63,12 +62,14 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
     }
   },
   robots: {
     UserAgent: '*',
     Disallow: '/_nuxt',
+  },
+  router: {
+    base: '/~mmf115/'
   },
   sitemap: {
     path: '/sitemap.xml',
@@ -80,5 +81,5 @@ module.exports = {
     // Dynamic routes
     routes: [
     ]
-  }
+  },
 }

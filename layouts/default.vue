@@ -2,18 +2,18 @@
   <div>
     <section class="container">
       <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-navbar-brand href="/">Mayeul Fournial</b-navbar-brand>
+        <b-navbar-brand to="/">Mayeul Fournial</b-navbar-brand>
         <b-navbar-toggle target="nav_collapse" />
         <b-collapse is-nav id="nav_collapse">
           <b-navbar-nav>
-            <b-nav-item href="/">Home</b-nav-item>
+            <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item-dropdown text="Notes" right>
-              <b-dropdown-item href="/notes/year1">Year 1</b-dropdown-item>
-              <b-dropdown-item href="/notes/year2">Year 2</b-dropdown-item>
-              <b-dropdown-item href="/notes/years3-4">Year 3 & 4</b-dropdown-item>
+              <b-dropdown-item to="/notes/year1">Year 1</b-dropdown-item>
+              <b-dropdown-item to="/notes/year2">Year 2</b-dropdown-item>
+              <b-dropdown-item to="/notes/years3-4">Year 3 & 4</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item href="/projects">Projects and Interests</b-nav-item>
-            <b-nav-item href="/cv">CV</b-nav-item>
+            <b-nav-item to="/projects">Projects and Interests</b-nav-item>
+            <b-nav-item to="/cv">CV</b-nav-item>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
