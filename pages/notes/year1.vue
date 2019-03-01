@@ -32,25 +32,15 @@
             fetch_notes: function (event) {
                 console.log(event.srcElement.id);
                 console.log(this.$refs.notes_test);
-                //$.getJSON('https://api.github.com/repos/icl-notes/notes-test/releases/latest', function(data) {
-                //   var tag = data.tag_name;
-                var tag = "untagged-12a8e737d2822d8c073f";
-                var down = "https://github.com/icl-notes/notes-test/releases/download/" + tag + "/test.pdf";
-                console.log(down);
-                this.turl = down;
-                window.open(down, "_blank");
-                //this.$refs.notes_download.click;
-                //console.log("testa", this.$refs.testa);
-                /*
-                $.ajax({
-                    url: down,
-                    success: this.test_download.url(true, "test.pdf", "application/pdf")
-                });
-*/
+                $.getJSON('https://api.github.com/repos/icl-notes/notes-test/releases/latest', function(data) {
+                  var tag = data.tag_name;
+                  // var tag = "untagged-12a8e737d2822d8c073f";
+                  var down = "https://github.com/icl-notes/notes-test/releases/download/" + tag + "/test.pdf";
+                  window.open(down, "_blank");
                 // data[tag_name] === "untagged-12a8e......"
                 // URL to match:
                 // https://github.com/icl-notes/notes-test/releases/download/untagged-12a8e737d2822d8c073f/test.pdf    
-                //});
+                });
         }
   }
 }
