@@ -1,5 +1,11 @@
 const pkg = require('./package')
 
+export default {
+  env: {
+    baseUrl: process.env.BASE_URL || 'https://www.doc.ic.ac.uk/~mmf115/'
+  }
+}
+
 module.exports = {
   mode: 'universal',
 
