@@ -1,8 +1,14 @@
 <template>
   <div>
     <section class="container">
-      Explaination here
+      <div class="container">
+        <p>
+          Explaination here
+        </p>
+      </div>
     </section>
-    <nuxt-child />
+    <div class="container">
+      <nuxt-child />
+    </div>
   </div>
 </template>
