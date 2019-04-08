@@ -6,14 +6,13 @@
         <b-navbar-toggle target="nav_collapse" />
         <b-collapse is-nav id="nav_collapse">
           <b-navbar-nav>
-            <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item-dropdown text="Notes" right>
               <b-dropdown-item to="/notes/year1">Year 1</b-dropdown-item>
               <b-dropdown-item to="/notes/year2">Year 2</b-dropdown-item>
               <b-dropdown-item to="/notes/years3-4">Year 3 & 4</b-dropdown-item>
             </b-nav-item-dropdown>
             <b-nav-item to="/projects">Projects and Interests</b-nav-item>
-            <b-nav-item to="/cv">CV</b-nav-item>
+            <b-nav-item to="/CV/cv-mayeul-FOURNIAL.pdf">CV</b-nav-item>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
@@ -22,12 +21,9 @@
               <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search" />
               <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
             </b-nav-form>
-            <b-nav-item-dropdown right>
-              <!-- Using button-content slot -->
-              <template slot="button-content"><em>User</em></template>
-              <b-dropdown-item href="#">Profile</b-dropdown-item>
-              <b-dropdown-item href="#">Signout</b-dropdown-item>
-            </b-nav-item-dropdown>
+            <b-nav-item to="/about">
+              <em>About</em>
+            </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
