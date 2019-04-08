@@ -1,24 +1,28 @@
 # personal-website
 
-> Personal ~mmf115 website
+> Personal ~mmf115 website you can [find here](https://www.doc.ic.ac.uk/~mmf115/)
 
-:warning: **This is a WIP, the code isn't even formatted, please wait for things to stabilise.** :warning:
+:warning: **This is still a WIP** :warning:
 
 ## Build Setup
 
-``` bash
-# install dependencies
-$ npm install
+### Requirements
 
+* Node 10. Started with `nvm use 10.15.1` originally.
+* Install dependencies
+``` bash
+npm install
+```
+
+### Usage
+
+The site is configured to be deployed on DoC's servers which serves static content.
+[Nuxt.js](https://nuxtjs.org) is built on top of VueJS to handle both static deployments and a classic hot reload dev server to use as follows:
+
+```bash
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
 
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
