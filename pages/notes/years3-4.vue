@@ -6,7 +6,7 @@
           <b-tab title="Mathematics" active>
             Maths modules
           </b-tab>
-          <b-tab title="Computing" active>
+          <b-tab title="Computing">
             Computing modules
           </b-tab>
         </b-tabs>
