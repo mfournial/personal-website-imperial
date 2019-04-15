@@ -2,7 +2,7 @@
   <div>
     <section class="container">
       <div class="container">
-        <div class="mt-3">
+        <div class="mt-3 text-center">
           <strong class="text-center">I am not a GDPR expert but here are a few things I think I should write.</strong>
         </div>
         <br />
