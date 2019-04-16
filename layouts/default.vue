@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="container">
-      <b-navbar toggleable="lg" type="dark" variant="info" fixed="top" sticky=true>
+      <b-navbar toggleable="lg" type="dark" variant="info">
         <b-navbar-brand to="/" class="mb-0">Mayeul Fournial</b-navbar-brand>
         <b-navbar-toggle target="nav_collapse" />
         <b-collapse is-nav id="nav_collapse">
