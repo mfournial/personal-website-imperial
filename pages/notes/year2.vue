@@ -14,3 +14,21 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+        }
+    },
+    methods: {
+        downloadNotes: function(repoName, outputName) {
+            $.getJSON('https://api.github.com/repos/icl-notes/' + repoName + '/releases/latest', function(data) {
+                var tag = data.tag_name;
+                var down = "https://github.com/icl-notes/" + repoName + "/releases/download/" + tag + "/" + outputName;
+                window.open(down, "self");
+            });
+        },
+    }
+}
+</script>
