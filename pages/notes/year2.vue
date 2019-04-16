@@ -37,6 +37,14 @@ export default {
     },
     beforeMount() {
         this.makeTitle("Year 2");
-    }
+    },
+    head () {
+        return {
+            title: "Mayeul Fournial | Year 2",
+            meta: [
+                { hid: "description", name: "description", content: "Second year notes"},
+            ],
+        }
+    },
 }
 </script>

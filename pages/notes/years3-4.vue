@@ -44,6 +44,14 @@ export default {
     },
     beforeMount() {
         this.makeTitle("Years 3 & 4");
-    }
+    },
+    head () {
+        return {
+            title: "Mayeul Fournial | Years 3 & 4",
+            meta: [
+                { hid: "description", name: "description", content: "Notes for third and fourth year modules"},
+            ],
+        }
+    },
 }
 </script>

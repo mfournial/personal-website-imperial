@@ -19,3 +19,20 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+        }
+    },
+    head () {
+        return {
+            title: "Mayeul Fournial | About",
+            meta: [
+                { hid: "description", name: "description", content: "Legal mentions and remarks"},
+            ],
+        }
+    },
+}
+</script>
