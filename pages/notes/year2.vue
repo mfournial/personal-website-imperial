@@ -29,6 +29,14 @@ export default {
                 window.open(down, "self");
             });
         },
+    },
+    props: {
+        makeTitle: {
+            type: Function
+        },
+    },
+    beforeMount() {
+        this.makeTitle("Year 2");
     }
 }
 </script>

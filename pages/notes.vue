@@ -11,7 +11,7 @@
       </div>
     </section>
     <div class="container">
-      <nuxt-child />
+      <nuxt-child :makeTitle=makeTitle />
     </div>
   </div>
 </template>
@@ -23,13 +23,9 @@
               title: "",
           }
       },
-      beforeMount() {
-          // Note: this will only really work when exporting to static pages
-          var year = window.location.href.slice(-1);
-          if (year === "4") {
-              this.title = "Years 3 & 4";
-          } else {
-              this.title = "Year " + year;
+      methods: {
+          makeTitle: function(t) {
+              this.title = t;
           }
       },
       head() {

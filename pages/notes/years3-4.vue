@@ -36,6 +36,14 @@ export default {
         m3p19: function (event) {
             this.downloadNotes("m3p19", "notes.pdf");
         }
+    },
+    props: {
+        makeTitle: {
+            type: Function
+        },
+    },
+    beforeMount() {
+        this.makeTitle("Years 3 & 4");
     }
 }
 </script>

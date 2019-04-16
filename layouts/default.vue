@@ -1,29 +1,15 @@
 <template>
   <div>
     <section class="container">
-      <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar toggleable="lg" type="dark" variant="info" sticky fixed="top">
         <b-navbar-brand to="/" class="mb-0">Mayeul Fournial</b-navbar-brand>
         <b-navbar-toggle target="nav_collapse" />
         <b-collapse is-nav id="nav_collapse">
-        <!-- If project page is kept
-          <b-navbar-nav>
-            <b-nav-item-dropdown text="Notes" right>
-              <b-dropdown-item to="/notes/year1">Year 1</b-dropdown-item>
-              <b-dropdown-item to="/notes/year2">Year 2</b-dropdown-item>
-              <b-dropdown-item to="/notes/years3-4">Years 3 & 4</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-nav-item to="/projects">Projects and Interests</b-nav-item>
-            <b-nav-item to="/CV/cv-mayeul-FOURNIAL.pdf">CV</b-nav-item>
-            <b-nav-item to="/about">
-              <em>About</em>
-            </b-nav-item>
-          </b-navbar-nav>
-        -->
           <b-navbar-nav>
             <b-nav-item to="/notes/year1">Year 1</b-nav-item>
             <b-nav-item to="/notes/year2">Year 2</b-nav-item>
             <b-nav-item to="/notes/years3-4">Years 3 & 4</b-nav-item>
-            <b-nav-item to="/CV/cv-mayeul-FOURNIAL.pdf">CV</b-nav-item>
+            <b-nav-item href="CV/cv-mayeul-FOURNIAL.pdf">CV</b-nav-item>
             <b-nav-item to="/about">
               <em>About</em>
             </b-nav-item>

@@ -35,6 +35,14 @@ export default {
         testNotes: function (event) {
             this.downloadNotes("notes-test", "test.pdf");
         },
+    },
+    props: {
+        makeTitle: {
+            type: Function
+        },
+    },
+    beforeMount() {
+        this.makeTitle("Year 1");
     }
 }
 </script>

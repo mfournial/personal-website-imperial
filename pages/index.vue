@@ -11,7 +11,7 @@
       <h3 class="text-info">Imperial notes</h3>
       <div class="text-justify container">
         <p>
-          You'll find on here the links to the <nuxt-link to="/notes/year1">year 1</nuxt-link>, <nuxt-link to="/notes/year2">year 2</nuxt-link>, and <nuxt-link to="/notes/years3-4">year 3 & 4</nuxt-link> notes. You can choose to simply download them or contribute to help maintaining them. A special thanks to all the students who've helped putting them up. (TODO: list peeps)
+          You'll find on here the links to the <nuxt-link to="/notes/year1">year 1</nuxt-link>, <nuxt-link to="/notes/year2">year 2</nuxt-link>, and <nuxt-link to="/notes/years3-4">year 3 & 4</nuxt-link> notes. You can choose to simply download them or contribute to help maintaining them. A special thanks to all the students who've helped putting them up.
         </p>
       </div>
       <h3 class="text-info">About me</h3>
