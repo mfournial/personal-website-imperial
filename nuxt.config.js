@@ -73,6 +73,7 @@ module.exports = {
   robots: {
     UserAgent: '*',
     Disallow: '/_nuxt',
+    Sitemap: 'https://www.doc.ic.ac.uk/~mmf115/sitemap.xml'
   },
   router: {
     base: '/~mmf115/'
