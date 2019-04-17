@@ -49,7 +49,6 @@ module.exports = {
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
     '@nuxtjs/robots',
-    '@nuxtjs/sitemap'
   ],
   bootstrapVue: {
     bootstrapCSS: false, // or `css`
@@ -77,16 +76,5 @@ module.exports = {
   },
   router: {
     base: '/~mmf115/'
-  },
-  sitemap: {
-    path: '/sitemap.xml',
-    hostname: 'https://www.doc.ic.ac.uk/~mmf115/',
-    cacheTime: 1000 * 60 * 15,
-    generate: true, // Enable me when using nuxt generate
-    exclude: [
-    ],
-    // Dynamic routes
-    routes: [
-    ]
   },
 }

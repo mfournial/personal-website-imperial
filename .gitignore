@@ -84,4 +84,3 @@ dist
 # Service worker
 sw.*
 activate.fish
-static/sitemap.xml
