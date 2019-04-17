@@ -17,7 +17,7 @@
       <h3 class="text-info">About me</h3>
       <div class="text-justify container">
         <p>
-        I am a penultimate year student at Imperial College London studying Joint Maths and Computing (<a href="https://www.imperial.ac.uk/computing/current-students/jmc-info/">JMC MEng</a>). I am the current academic year representative of my cohort and was elected to be the departmental academic representative of JMC for the year 2019/2020. I'm also a tennis fan <span v-on:click="changeAnimationStatus">({{ flag1 }} > {{ flag2 }} > {{ flag3 }})</span> and enjoy playing the piano 🎹.
+          I am a penultimate year student at Imperial College London studying Joint Maths and Computing (<a href="https://www.imperial.ac.uk/computing/current-students/jmc-info/">JMC MEng</a>). I am the current academic year representative of my cohort and was elected to be the departmental academic representative of JMC for the year 2019/2020. I'm also a tennis fan <span v-on:click="changeAnimationStatus">({{ flag1 }} > {{ flag2 }} > {{ flag3 }})</span> and enjoy playing the piano 🎹.
         </p>
         <p>
           I am on track to achieve a first class degree and I received two prizes for my work at Imperial. I was awarded the Olav Beckmann prize at the end of second year for outstanding second year undergraduate laboratory project work as well as the David Howarth prize for the Voodoo database. Please see my projects on <a href="https://linkedin.com/in/mfournial">LinkedIn</a> or my <nuxt-link to="/CV/cv-mayeul-FOURNIAL.pdf">CV</nuxt-link>, and Imperial's <a href="http://www.imperial.ac.uk/computing/prospective-students/distinguished-projects/ug-prizes/"> project page</a> and <a href="https://www.imperial.ac.uk/computing/current-students/project-info/ug-prizes/archive/"> archive</a> for more details.
@@ -26,7 +26,7 @@
       <h3 class="text-info">RIP browser history</h3>
       <div class="text-justify container">
         <p>
-          Fancy to see some URL animations (but you will not be able to use the back button on this site until you next visit)? 
+          Fancy to see some URL animations (but you will not be able to use the back button on this site until your next visit)? 
         </p>
         <div class="text-center container">
           <b-button v-on:click="clickURL" variant="success">{{ buttonText[textPosition] }}</b-button>
