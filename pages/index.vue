@@ -23,6 +23,15 @@
           I am on track to achieve a first class degree and I received two prizes for my work at Imperial. I was awarded the Olav Beckmann prize at the end of second year for outstanding second year undergraduate laboratory project work as well as the David Howarth prize for the Voodoo database. Please see my projects on <a href="https://linkedin.com/in/mfournial">LinkedIn</a> or my <nuxt-link to="/CV/cv-mayeul-FOURNIAL.pdf">CV</nuxt-link>, and Imperial's <a href="http://www.imperial.ac.uk/computing/prospective-students/distinguished-projects/ug-prizes/"> project page</a> and <a href="https://www.imperial.ac.uk/computing/current-students/project-info/ug-prizes/archive/"> archive</a> for more details.
         </p>
       </div>
+      <h3 class="text-info">RIP browser history</h3>
+      <div class="text-justify container">
+        <p>
+          Fancy to see some URL animations (but you will not be able to use the back button on this site until you next visit)? 
+        </p>
+        <div class="text-center container">
+          <b-button v-on:click="clickURL" variant="success">{{ buttonText[textPosition] }}</b-button>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -37,6 +46,11 @@ export default {
             flag2: "🇷🇸",
             flag3: "🇪🇸",
             animate: true,
+            colours: ['🏻', '🏼', '🏽', '🏾', '🏿'],
+            coloursPosition: 0,
+            buttonText: ["Launch URL animation", "Make it stop"],
+            textPosition: 0,
+            handle: null,
         }
     },
     head () {
@@ -48,6 +62,25 @@ export default {
         }
     },
     methods: {
+        clickURL: function() {
+            if (this.handle == null) {
+                this.handle = setInterval(this.nextFrameURL, 70);
+                this.textPosition = 1;
+            } else {
+                clearInterval(this.handle);
+                this.handle = null;
+                this.textPosition = 0;
+            }
+        },
+        nextFrameURL: function() {
+            var hash = '';
+            
+            for (var i = 0; i < 30; i ++) {
+                hash += '🤷' + this.colours[(i + this.coloursPosition) % this.colours.length];
+            }
+            location.hash = hash;
+            this.coloursPosition = (this.coloursPosition + 1) % this.colours.length;
+        },
         timeGreeting: function(currentHour) {
             if (4 <= currentHour && currentHour < 12) {
                 return "morning";
