@@ -8,6 +8,9 @@
               <h4 class="text-success">Measure and Integration (M3P19/M4P19)</h4>
               <b-button variant="link" v-on:click="m3p19">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m3p19">Repository</b-button>
+              <h4 class="text-success">Galois Theory (M3P11/M4P11)</h4>
+              <b-button variant="link" v-on:click="m3p11">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m3p11">Repository</b-button>
             </div>
           </b-tab>
           <b-tab title="Computing">
@@ -35,7 +38,10 @@ export default {
         },
         m3p19: function (event) {
             this.downloadNotes("m3p19", "notes.pdf");
-        }
+        },
+        m3p11: function(event) {
+            this.downloadNotes("m3p11", "main.pdf");
+        },
     },
     props: {
         makeTitle: {

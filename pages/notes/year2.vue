@@ -4,7 +4,11 @@
       <b-card no-body>
         <b-tabs card>
           <b-tab title="Mathematics" active>
-            Maths modules
+            <div class="container">
+              <h4 class="text-success">Metric Spaces and topology (M2PM5)</h4>
+              <b-button variant="link" v-on:click="m2pm5">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m2pm5">Repository</b-button>
+            </div>
           </b-tab>
           <b-tab title="Computing">
             Computing modules
@@ -28,6 +32,9 @@ export default {
                 var down = "https://github.com/icl-notes/" + repoName + "/releases/download/" + tag + "/" + outputName;
                 window.open(down, "self");
             });
+        },
+        m2pm5: function(event) {
+            this.downloadNotes("m2pm5", "main.pdf");
         },
     },
     props: {
