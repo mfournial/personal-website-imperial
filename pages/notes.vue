@@ -5,7 +5,7 @@
         <div class="mt-3 text-justify text-dark container">
           <h2 class="text-info text-center">{{ title }}</h2>
           <p>
-            This is still a work in progress but you will soon see maths and computing notes appear here. You can check out how fast things are going by going on the <a href="https://github.com/icl-notes">GitHub ICL notes</a> organisation. The notes for computing will likely be hosted on DoC's GitLab and build in DoC's Cloudstack VMs. Right now you should still check out <a href="https://www.doc.ic.ac.uk/~js4416/">Jordan's website</a> for his notes before we clone them.
+            These are the notes collected by the <a href="https://github.com/icl-notes">GitHub ICL notes</a> organisation. The notes for computing will likely be hosted on DoC's GitLab and build in DoC's Cloudstack VMs. Right now you should still check out <a href="https://www.doc.ic.ac.uk/~js4416/">Jordan's website</a> for his notes before we clone them. If you have troubles with the website, drop me an email (<a href="mailto:mmf115@ic.ac.uk">@mmf115</a>) or if you have problems with the maths notes follow <a href="https://icl-notes.github.io"> our guide</a>.
           </p>
         </div>
       </div>
