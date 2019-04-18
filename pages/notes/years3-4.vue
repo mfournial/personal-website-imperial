@@ -5,20 +5,32 @@
         <b-tabs card>
           <b-tab title="Mathematics" active>
             <div class="container">
-              <h4 class="text-success">Measure and Integration (M3P19/M4P19)</h4>
+              <h4 class="text-success">
+                Measure and Integration (M3P19/M4P19)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m3p19.svg?branch=master" />
+              </h4>
               <b-button variant="link" v-on:click="m3p19">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m3p19">Repository</b-button>
-              <h4 class="text-success">Galois Theory (M3P11/M4P11)</h4>
+              <h4 class="text-success">
+                Galois Theory (M3P11/M4P11)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m3p11.svg?branch=master" />
+              </h4>
               <b-button variant="link" v-on:click="m3p11">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m3p11">Repository</b-button>
             </div>
           </b-tab>
           <b-tab title="Computing">
             <div class="container">
-              <h4 class="text-success">Computational finance (C422)</h4>
+              <h4 class="text-success">
+                Computational finance (C422)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/c422.svg?branch=master" />
+              </h4>
               <b-button variant="link" v-on:click="c422">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/c422">Repository</b-button>
-              <h4 class="text-success">Probabilistic Inference (C493)</h4>
+              <h4 class="text-success">
+                Probabilistic Inference (C493)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/c493.svg?branch=master" />
+              </h4>
               <b-button variant="link" v-on:click="c493">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/c493">Repository</b-button>
             </div>

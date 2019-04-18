@@ -5,13 +5,16 @@
         <b-tabs card>
           <b-tab title="Mathematics" active>
             <div class="container">
-              <h4 class="text-success">Metric Spaces and topology (M2PM5)</h4>
+              <h4 class="text-success">
+                Metric Spaces and topology (M2PM5)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m2pm5.svg?branch=master" />
+              </h4>
               <b-button variant="link" v-on:click="m2pm5">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m2pm5">Repository</b-button>
             </div>
           </b-tab>
           <b-tab title="Computing">
-            Computing modules
+            <a href="https://www.doc.ic.ac.uk/~js4416/year1.html">Jordan's notes</a>
           </b-tab>
         </b-tabs>
       </b-card>
