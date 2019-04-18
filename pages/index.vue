@@ -55,7 +55,7 @@ export default {
     },
     head () {
         return {
-            title: "Mayeul Fournial | ".concat(this.title),
+            title: "Mayeul Mike Fournial | ".concat(this.title),
             meta: [
                 { hid: "description", name: "description", content: this.description },
             ],

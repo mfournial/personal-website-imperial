@@ -34,7 +34,7 @@ export default {
     },
     head () {
         return {
-            title: "Mayeul Fournial | About",
+            title: "Mayeul Mike Fournial | About",
             meta: [
                 { hid: "description", name: "description", content: "Legal mentions and remarks"},
             ],

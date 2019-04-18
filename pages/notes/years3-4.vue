@@ -78,7 +78,7 @@ export default {
     },
     head () {
         return {
-            title: "Mayeul Fournial | Years 3 & 4",
+            title: "Mayeul Mike Fournial | Years 3 & 4",
             meta: [
                 { hid: "description", name: "description", content: "Notes for third and fourth year modules shared by Mayeul Mike Fournial mmf115"},
             ],

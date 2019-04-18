@@ -84,7 +84,7 @@ export default {
     },
     head () {
         return {
-            title: "Mayeul Fournial | Year 1",
+            title: "Mayeul Mike Fournial | Year 1",
             meta: [
                 { hid: "description", name: "description", content: "First year notes shared by Mayeul Mike Fournial mmf115"},
             ],
