@@ -3,9 +3,7 @@
     <div class="container">
       <div class="mt-3 text-center text-dark container">
         <h2>
-        <b-spinner variant="danger" type="grow" label="Spinning" />
-          Good {{ timeGreeting(new Date().getHours()) }}
-        <b-spinner variant="danger" type="grow" label="Spinning" />
+          Good {{ timeGreeting(new Date().getHours()) }} 👋
         </h2>
       </div>
       <h3 class="text-info">Imperial notes</h3>
