@@ -6,6 +6,12 @@
           <b-tab title="Mathematics" active>
             <div class="container">
               <h4 class="text-success">
+                Complex Analysis (M2PM3)
+                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m2pm3.svg?branch=master" />
+              </h4>
+              <b-button variant="link" v-on:click="m2pm3">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m2pm3">Repository</b-button>
+              <h4 class="text-success">
                 Metric Spaces and topology (M2PM5)
                 <img alt="CI badge" src="https://travis-ci.org/icl-notes/m2pm5.svg?branch=master" />
               </h4>
@@ -35,6 +41,9 @@ export default {
                 var down = "https://github.com/icl-notes/" + repoName + "/releases/download/" + tag + "/" + outputName;
                 window.open(down, "self");
             });
+        },
+        m2pm3: function(event) {
+            this.downloadNotes("m2pm3", "main.pdf");
         },
         m2pm5: function(event) {
             this.downloadNotes("m2pm5", "main.pdf");
