@@ -14,7 +14,14 @@
             </div>
           </b-tab>
           <b-tab title="Computing">
-            Computing modules
+            <div class="container">
+              <h4 class="text-success">Computational finance (C422)</h4>
+              <b-button variant="link" v-on:click="c422">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/c422">Repository</b-button>
+              <h4 class="text-success">Probabilistic Inference (C493)</h4>
+              <b-button variant="link" v-on:click="c493">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/c493">Repository</b-button>
+            </div>
           </b-tab>
         </b-tabs>
       </b-card>
@@ -41,6 +48,12 @@ export default {
         },
         m3p11: function(event) {
             this.downloadNotes("m3p11", "main.pdf");
+        },
+        c422: function(event) {
+            this.downloadNotes("c422", "main.pdf");
+        },
+        c493: function(event) {
+            this.downloadNotes("c493", "main.pdf");
         },
     },
     props: {
