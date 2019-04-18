@@ -86,7 +86,7 @@ export default {
         return {
             title: "Mayeul Fournial | Year 1",
             meta: [
-                { hid: "description", name: "description", content: "First year notes"},
+                { hid: "description", name: "description", content: "First year notes shared by Mayeul Mike Fournial mmf115"},
             ],
         }
     },

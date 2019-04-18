@@ -40,7 +40,7 @@
 export default {
     data () {
         return {
-            description: "Mayeul Fournial is a motivated, hardworking and reliable penultimate year student at Imperial College London on track to achieve a first class degree. He is also the academic representative of in the third year of his course Joint Maths and Computing.",
+            description: "Personal website of Mayeul Mike Fournial where you can find collaborative notes.",
             title: "Index",
             flag1: "🇨🇭",
             flag2: "🇷🇸",
