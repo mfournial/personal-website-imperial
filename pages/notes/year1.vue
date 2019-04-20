@@ -11,25 +11,25 @@
               -->
               <h4 class="text-success">
                 Foundation of analysis (M1F)
-                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m1f.svg?branch=master" />
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m1f.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m1f">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m1f">Repository</b-button>
               <h4 class="text-success">
                 Mathematical methods (M1M1)
-                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m1m1.svg?branch=master" />
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m1m1.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m1m1">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m1m1">Repository</b-button>
               <h4 class="text-success">
                 Maths for JMC 1 (M1J1)
-                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m1j1.svg?branch=master" />
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m1j1.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m1j1">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m1j1">Repository</b-button>
               <h4 class="text-success">
                 Maths for JMC 2 (M1J2)
-                <img alt="CI badge" src="https://travis-ci.org/icl-notes/m1j2.svg?branch=master" />
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m1j2.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m1j2">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m1j2">Repository</b-button>
