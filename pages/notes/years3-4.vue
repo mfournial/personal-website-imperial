@@ -6,17 +6,41 @@
           <b-tab title="Mathematics" active>
             <div class="container">
               <h4 class="text-success">
+                Geometry of Curves and Surfaces (M3P5/M4P5)
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p5.svg?branch=master" />
+              </h4>
+              <b-button variant="link" v-on:click="m3p5">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m3p5">Repository</b-button>
+              <h4 class="text-success">
+                Algebra III (M3P8/M4P8)
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p8.svg?branch=master" />
+              </h4>
+              <b-button variant="link" v-on:click="m3p8">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m3p8">Repository</b-button>
+              <h4 class="text-success">
                 Galois Theory (M3P11/M4P11)
                 <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p11.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m3p11">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m3p11">Repository</b-button>
               <h4 class="text-success">
+                Number Theory (M3P14/M4P14)
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p14.svg?branch=master" />
+              </h4>
+              <b-button variant="link" v-on:click="m3p14">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m3p14">Repository</b-button>
+              <h4 class="text-success">
                 Algebraic Number theory (M3P15/M4P15)
                 <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p15.svg?branch=master" />
               </h4>
               <b-button variant="link" v-on:click="m3p15">Notes (pdf)</b-button>
               <b-button variant="link" href="https://github.com/icl-notes/m3p15">Repository</b-button>
+              <h4 class="text-success">
+                Algebraic Combinatorics (M3P17/M4P17)
+                <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p17.svg?branch=master" />
+              </h4>
+              <b-button variant="link" v-on:click="m3p17">Notes (pdf)</b-button>
+              <b-button variant="link" href="https://github.com/icl-notes/m3p17">Repository</b-button>
               <h4 class="text-success">
                 Measure and Integration (M3P19/M4P19)
                 <img alt="CI badge" src="https://travis-ci.com/icl-notes/m3p19.svg?branch=master" />
@@ -79,11 +103,23 @@ export default {
                 window.open(down, "self");
             });
         },
+        m3p5: function(event) {
+            this.downloadNotes("m3p5", "main.pdf");
+        },
+        m3p8: function(event) {
+            this.downloadNotes("m3p8", "main.pdf");
+        },
         m3p11: function(event) {
             this.downloadNotes("m3p11", "main.pdf");
         },
+        m3p14: function(event) {
+            this.downloadNotes("m3p14", "main.pdf");
+        },
         m3p15: function (event) {
             this.downloadNotes("m3p15", "main.pdf");
+        },
+        m3p17: function(event) {
+            this.downloadNotes("m3p17", "main.pdf");
         },
         m3p19: function (event) {
             this.downloadNotes("m3p19", "notes.pdf");
