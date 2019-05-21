@@ -18,7 +18,7 @@
         <h2 class="text-info">About this website</h2>
         <div class="container text-justify">
           <p>
-            It was build using <a href="https://nuxtjs.org/">Nuxt.js</a> which is built on top of VueJS. It has been practical so far as a static website generator.
+            It was built using <a href="https://nuxtjs.org/">Nuxt.js</a> which is built on top of VueJS. It has been practical so far as a static website generator.
           </p>
         </div>
       </div>
