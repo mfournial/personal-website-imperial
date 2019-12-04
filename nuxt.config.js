@@ -39,6 +39,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/bootstrap-vue',
   ],
 
   /*
@@ -67,6 +68,10 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      if (ctx.isClient) {
+        // BootstrapVue and PortalVue require access to the global Vue reference (via import Vue from 'vue').
+        config.resolve.alias['vue$'] = 'vue/dist/vue.esm.js'
+      }
     }
   },
   robots: {
