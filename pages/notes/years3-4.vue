@@ -70,6 +70,12 @@
           <b-tab title="Computing">
             <div class="container">
               <h4 class="text-success">
+                Scalable Systems for the Cloud (C410)
+              </h4>
+              <b-button variant="link" href="https://github.com/icl-notes/CO410_19-20/blob/master/scalable_notes.pdf">Notes (pdf)</b-button>
+	      <b-badge variant="danger">Not automatically compiled</b-badge>
+              <b-button variant="link" href="https://github.com/icl-notes/CO410_19-20">Repository</b-button>
+              <h4 class="text-success">
                 Computational finance (C422)
                 <img alt="CI badge" src="https://travis-ci.com/icl-notes/c422.svg?branch=master" />
               </h4>
